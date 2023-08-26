@@ -1,0 +1,8 @@
+name: BomberMob
+version: '${version}'
+main: segasha.bombermob.BomberMob
+api-version: '1.20'
+
+commands:
+  bomber:
+    description: Spawn bomber mob.
