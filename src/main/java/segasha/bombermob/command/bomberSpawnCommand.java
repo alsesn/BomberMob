@@ -11,6 +11,7 @@ import segasha.bombermob.utils.CommandHandler;
 
 import java.util.Arrays;
 
+@CommandInfo(name = "bomber", requiresPlayer = true)
 public class bomberSpawnCommand extends CommandHandler {
     @Override
     protected boolean execute(CommandSender sender, Command command, String label, String[] args) {
